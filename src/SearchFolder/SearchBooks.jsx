@@ -1,6 +1,6 @@
 import React from 'react'
 import HomePage from "./HomePage"
-import Book from "./Book"
+import Book from "./BooksFolder/Book"
 import * as BooksAPI from "./BooksAPI"
 
 export default class SearchBooks extends React.Component {
@@ -8,7 +8,11 @@ export default class SearchBooks extends React.Component {
     searchResults : [],
     value: ''
   }
+  resetSearch = () => {
+    this.setState({ searchResults: [] });
+  }
 
+  
   handleChange = event => {
     const value = event.target.value;
     this.setState({ value: value });
@@ -26,9 +30,7 @@ export default class SearchBooks extends React.Component {
     }
   };
 
-  resetSearch = () => {
-    this.setState({ searchResults: [] });
-  }
+ 
 
   render() {
     const { books, onChangeShelf } = this.props;
@@ -50,7 +52,7 @@ export default class SearchBooks extends React.Component {
           <HomePage resetSearch={this.resetSearch} />
           <div className="search-books-input-wrapper">
      
-            <input type="text" placeholder="Search by title or author" value={this.state.value} onChange={this.handleChange} />
+            <input type="text" placeholder="You can Search by title or author" value={this.state.value} onChange={this.handleChange} />
 
           </div>
         </div>
