@@ -1,6 +1,6 @@
 import React from 'react'
 import Bookshelf from "./Bookshelf"
-import SearchPage from "../SearchFolder/SearchPage"
+import SearchPage from '../SearchFolder/SearchPage';
 
 export default class ListBooks extends React.Component {
   render() {
