@@ -1,5 +1,5 @@
 # MyReads: A Book Tracking Web App
-MyReads web app is created using React.js as a part of the [Udacity's React Nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).
+MyReads web app is created using React.js as a part of the [Udacity's React Nanodegree program]
 
 ## About
 This is a single-page app (navigation happens without the need to refresh pages), and it represents a virtual bookcase to store your books and track what you're reading.
@@ -10,13 +10,10 @@ MyReads lets you manage your digital bookshelf. It supports three shelves:
 
 Additionally you can search and add books to any shelf. 
 
-### Live Demo: 
-[https://my-reads-8c75aa.netlify.com/](https://my-reads-8c75aa.netlify.com/)
 
--------
 ## Development
 A static example of the CSS and HTML markup was provided, and a backend API to communicate with a Backend Server from Udacity for book information and long term storage.
-Then I added interactivity to the app by refactoring the static code into react components, following DOT (Do One Thing) rule.
+
 
 ### Starter Code
 [https://github.com/udacity/reactnd-project-myreads-starter](https://github.com/udacity/reactnd-project-myreads-starter)
@@ -49,9 +46,7 @@ UI and URL are in sync
 - Done using react-router
 
 ---------
-## Screenshots
-![screenshot1](./public/imgs/screenshot1.png)
-![screenshot2](./public/imgs/screenshot2.png)
+
 
 ## Installation
 
@@ -60,7 +55,7 @@ Clone the repository, change directories, and use NPM to install the dependencie
 - Run `npm install`or `yarn install` in the project directory to install dependencies.
 
 ## Start
-- The project can be run with `npm start`
+- The project can be run with `yarn start`
 - Then it can be viewed in the browser at [http://localhost:3000](http://localhost:3000)
 
 
