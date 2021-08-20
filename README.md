@@ -18,6 +18,9 @@ A static example of the CSS and HTML markup was provided, and a backend API to c
 ### Starter Code
 [https://github.com/udacity/reactnd-project-myreads-starter](https://github.com/udacity/reactnd-project-myreads-starter)
 
+### Live Demo Here
+https://trusting-pare-7de1ee.netlify.app
+
 ### Backend Server
 
 The provided file [`BooksAPI.js`](src/BooksAPI.js) contains following methods to perform necessary operations on the backend:
